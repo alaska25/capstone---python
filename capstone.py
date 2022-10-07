@@ -59,7 +59,7 @@ class Employee(Person):
     def get_department(self):
         return self._department
 
-    #setters
+# Setters
     def set_first_name(self):
         self._first_name = first_name
 
@@ -111,7 +111,7 @@ class TeamLead(Person):
         self._department = department
         self._members = []
 
-    #getters
+# Getters
     def get_first_name(self):
         return self._first_name
 
@@ -127,7 +127,7 @@ class TeamLead(Person):
     def get_members(self):
         return self._members
 
-    #setters
+# Setters
     def set_first_name(self):
         self._first_name = first_name
 
@@ -143,7 +143,7 @@ class TeamLead(Person):
     def set_members(self):
         self._members = members
 
-    #methods
+# Methods
     def get_full_name(self):
         return f"{self._first_name} {self._last_name}"
     def add_request(self):
@@ -187,7 +187,7 @@ class Admin(Person):
         self._email = email
         self._department = department
 
-    #getters
+# Getters
     def get_first_name(self):
         return self._first_name
 
@@ -200,7 +200,7 @@ class Admin(Person):
     def get_department(self):
         return self._department
 
-    #setters
+# Setters
     def set_first_name(self):
         self._first_name = first_name
 
@@ -213,7 +213,7 @@ class Admin(Person):
     def set_department(self):
         self._department = department
 
-    #methods
+# Methods
     def get_full_name(self):
         return f"{self._first_name} {self._last_name}"
     def add_request(self):
@@ -246,7 +246,7 @@ class Request():
         self._requester = requester
         self._date_requested = date_requested
 
-    #getters
+# Getters
     def get_name(self):
         return self._name
 
@@ -256,7 +256,7 @@ class Request():
     def get_date_requested(self):
         return self._date_requested
 
-    #setters
+# Setters
     def set_name(self):
         self._name = name
 
